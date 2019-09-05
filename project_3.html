@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>lyhte - Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Stylesheet -->
+    <link href="css/stylesheet.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+
+    <!-- FullPage CSS -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css" />
+
+    <!-- Jquery -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+
+    <!-- FullPage JS -->
+    <script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,800" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img\favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- Fade page in script -->
+    <script>document.body.className += ' fade-out';</script>
+
+    <!-- Home button  -->
+    <a href="index.html">
+        <div class="row navigation">
+            <div class="col-sm-5"></div>
+            <div class="col-sm-2">
+                <h4 class="home-btn">lyhte</h4>
+            </div>
+            <div class="col-sm-5">
+                <h3 style="font-size: 0.8em; text-align: right; margin-top: 2%; margin-right:10%;">© 2017 Carl Strümpfer</h3>
+            </div>
+        </div>
+    </a>
+
+    <!-- Top navbar -->
+    <div class="menu">
+        <div class="nav-btn">
+            <a href="#" class="menu-link">
+                <h4 class="btn-top">ABOUT</h4>
+            </a>
+        </div>
+        <div class="nav-btn">
+            <a href="#" class="menu-link2">
+                <h4 class="btn-top">CONTACT</h4>
+            </a>
+        </div>
+        <div class="nav-btn">
+            <a href="index.html#projects">
+                <h4 class="btn-top">PROJECTS</h4>
+            </a>
+        </div>
+    </div>
+
+    <!-- Project vertical nav bars -->
+    <a href="project_1.html" style="width: 100%; height:100%;">
+        <div class="hover-bar" style="right: 0;">
+            <div class="next-project">
+                <h4 class="next-btn">NEXT</h4>
+            </div>
+        </div>
+    </a>
+    <a href="project_2.html" style="width: 100%; height:100%;">
+        <div class="hover-bar" style="left:0">
+            <div class="prev-project">
+                <h4 class="prev-btn">PREV</h4>
+            </div>
+        </div>
+    </a>
+
+    <!-- About Me Page -->
+    <div class="menu-overlay">
+        <br>
+        <br>
+        <div class="overlay-info">
+            <h1>More about me</h1>
+            <p style="font-size: 1.2em;">
+                <br> My name is Carl Strümpfer. My surname is German, although I am not, and it translates to ‘socks’, which
+                <br> I coincidentally enjoy wearing on cold days. I live on the very bottom of the African continent, in
+                <br>South Africa.
+                <br>
+                <br> I am also currently a Multimedia Design student at the Stellenbosch Academy of Design and Photography,
+                <br> which to conserve oxygen, we all simply call the Academy. What you see here is some of the cool stuff
+                <br> that I’ve made there.
+                <br>
+                <br>
+                <br> I find myself intrigued by the concept of light, and how it dances around objects and plays with the world
+                <br> around us. I make it my mission in life to capture the game between light and darkness, by any means
+                <br> possible, be it photo, video or film.
+                <br>
+                <br> I can keep myself busy with my myriad of interests, that range from photography to restoring old
+                <br> technological relics, like keyboards and reel-to-reel tape decks. I also suffer from a severe case of
+                <br> retro 80’s nostalgia, which influences much of what I own and listen to.
+                <br>
+                <br>
+                <br>
+            </p>
+            <a href="#" class="menu-link">
+                <h4 style="color: black;">╳</h4>
+            </a>
+        </div>
+    </div>
+
+    <!-- Contact me page -->
+    <div class="menu-overlay-contact">
+        <div class="overlay-info-contact">
+            <div class="container-fluid contact-overlay">
+                <div class="row row-6">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4" style="color: black;">
+                        <h1>Wanna say hi?</h1>
+                        <h2>I have only made this letter longer because I have not had the time to make it shorter.
+                            <br> Blaise Pascal</h2>
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div>
+                <div class="row row-8 mail-form" style="background-color: black;">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6">
+                        <form action="mailto:carlstr@gmail.com" method="post" enctype="text/plain">
+                            <input type="text" name="Your message" placeholder="I don’t mind how long your letters are...">
+                            <input type="text" name="Your name" placeholder="your name goes here">
+                            <input type="text" name="Your email address" placeholder="your email adress goes here">
+                            <input type="submit" value="SEND">
+                        </form>
+                    </div>
+                    <div class="row row-2" style="background-color: black;">
+                        <a href="#" class="menu-link2">
+                            <br>
+                            <h4 style="color: white;">╳</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pages Start-->
+    <!-- Fullpage div -->
+    <div id="fullpage">
+
+        <!-- Homepage -->
+        <div class="container-fluid content section" id="website-main">
+            <div class="row row-6">
+                <div class="col-sm-12" style="display: flex; justify-content: center; align-items: center;">
+                    <h1 class="project-name">Music Peace Love</h1>
+                </div>
+            </div>
+            <div class="row row-6" style="background-color:black; color: white;">
+                <div class="col-sm-4 description">
+                    <p style="background-color:black; color: white;">
+                        <h4>Outline</h4>
+                        A tribute is created in order to celebrate the life of an individual of note. As is the case of Jimi Hendrix, in honour of
+                        which this tribute website was created. It follows his life and career through its high’s and low’s,
+                        in a uniquely personal manner.
+                        <br>
+                        <br>
+                        <h4>Concept</h4>
+                        An important concept from the start of this project was to humanize Hendrix, not to detract from his stardom, but to show
+                        the kind of person he truly was. The title of the website, Music, Peace and Love, echoes this very
+                        well. The last interview that Hendrix did, shortly before his death, formed the backbone for the
+                        entire layout of the website.
+                    
+                </div>
+                <div class="col-sm-4 description">
+                    <p style="background-color:black; color: white;">
+                        <h4>Execution</h4>
+                        Every defining event in Hendrix’s life is represented along a line running through the entire website, with each stemming
+                        off to describe it in detail. These descriptions are linked to a quote from the interview, highlighted
+                        by the deep purple and bright yellow that adorned one of The Jimi Hendrix Experience’s albums.
+                        <br>
+                        <br> Each event is flanked by an image that is artificially colorized from black and white using a unique
+                        algorithm.
+                        <br>
+                        <br> The choice of type is such that it will not only appeal to the contemporary eye, but also tie back
+                        to a truly 1970’s aesthetic. Life events are interspersed with handwritten notes, letters and poems
+                        by Hendrix himself, that tell a deeper story and show an intimate side of the artist.
+                    
+                </div>
+                <div class="col-sm-2"></div>
+                <!-- Tools icons -->
+                <div class="col-sm-1">
+                    <div class="tools-spacer"></div>
+                    <div class="tools">
+                        <img class="icon" src="img/icons/atom.png" alt="">
+                        <img class="icon-hover" src="img/icons/atom_hover.png" alt="">
+                    </div>
+                    <div class="tools">
+                        <img class="icon" src="img/icons/illustrator.png" alt="">
+                        <img class="icon-hover" src="img/icons/illustrator_alt.png" alt="">
+                    </div>
+                    <div class="tools">
+                        <img class="icon" src="img/icons/photoshop.png" alt="">
+                        <img class="icon-hover" src="img/icons/photoshop_hover.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Website execution -->
+        <div class="container-fluid content section" id="website-execution">
+            <div class="row row-3">
+                <div class="col-sm-1"></div>
+                <!-- Project title -->
+                <div class="col-sm-11 project-title">
+                    <h1>Music Peace Love</h1>
+                    <h3>tribute website</h3>
+                </div>
+            </div>
+            <div class="row row-8">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-7">
+                    <img src="img/website/website_scrollthrough.gif" style="width: 100%;">
+                </div>
+                <!-- Project nav buttons -->
+                <div class="col-sm-4" style="min-width:350px">
+                    <a href="#website-execution">
+                        <h1 class="project-nav-active">Execution</h1>
+                    </a>
+                    <a href="#website-screenshots">
+                        <h1 class="project-nav">Screenshots</h1>
+                    </a>
+                    <a href="#website-link">
+                        <h1 class="project-nav">Website</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Website screenshots -->
+        <div class="container-fluid content section" id="website-screenshots">
+            <div class="row row-3">
+                <div class="col-sm-1"></div>
+                <!-- Project title -->
+                <div class="col-sm-11 project-title">
+                        <h1>Music Peace Love</h1>
+                        <h3>tribute website</h3>
+                    </div>
+            </div>
+            <div class="row row-8">
+                <div class="col-sm-1"></div>
+                <!-- Image slideshow -->
+                <div class="col-sm-7">
+                    <div id="carousel-lumen-environment" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-lumen-environment" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-lumen-environment" data-slide-to="1"></li>
+                            <li data-target="#carousel-lumen-environment" data-slide-to="2"></li>
+                            <li data-target="#carousel-lumen-environment" data-slide-to="3"></li>
+                            <li data-target="#carousel-lumen-environment" data-slide-to="4"></li>
+                            <li data-target="#carousel-lumen-environment" data-slide-to="5"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <a href="#jimi-1">
+                                    <img class="d-block img-fluid" src="img/website/website_screenshot_1.PNG">
+                                </a>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3 class="image-description">Homepage with navigation</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#jimi-2">
+                                    <img class="d-block img-fluid" src="img/website/website_screenshot_2.PNG">
+                                </a>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3 class="image-description">Life event page with quote</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#jimi-3">
+                                    <img class="d-block img-fluid" src="img/website/website_screenshot_3.PNG">
+                                </a>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3 class="image-description">Image popup</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#jimi-4">
+                                    <img class="d-block img-fluid" src="img/website/website_screenshot_4.PNG">
+                                </a>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3 class="image-description">Popup YouTube player</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#jimi-5">
+                                    <img class="d-block img-fluid" src="img/website/website_screenshot_5.PNG">
+                                </a>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3 class="image-description">Handwritten notes by Jimi Hendrix</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#jimi-5">
+                                    <img class="d-block img-fluid" src="img/website/website_screenshot_6.PNG">
+                                </a>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3 class="image-description">Final page with Tilt.js</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel-lumen-environment" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-lumen-environment" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Project nav buttons -->
+                <div class="col-sm-4" style="min-width:350px">
+                    <a href="#website-execution">
+                        <h1 class="project-nav">Execution</h1>
+                    </a>
+                    <a href="#website-screenshots">
+                        <h1 class="project-nav-active">Screenshots</h1>
+                    </a>
+                    <a href="#website-link">
+                        <h1 class="project-nav">Website</h1>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Website link -->
+        <div class="container-fluid content section" id="website-link">
+            <div class="row row-3">
+                <div class="col-sm-1"></div>
+                <!-- Project title -->
+                <div class="col-sm-11 project-title">
+                    <h1>Music Peace Love</h1>
+                    <h3>tribute website</h3>
+                </div>
+            </div>
+            <div class="row row-8">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-7 link-block">
+                    <a href="Hendrix_Tribute_Website/index.html" target="_blank">
+                        <h1 class="web-link">Click to go to website</h1>
+                        <h3 class="web-link">opens in new tab</h3>
+                    </a>
+                </div>
+                <!-- Project nav buttons -->
+                <div class="col-sm-4" style="min-width:350px">
+                    <a href="#website-execution">
+                        <h1 class="project-nav">Execution</h1>
+                    </a>
+                    <a href="#website-screenshots">
+                        <h1 class="project-nav">Screenshots</h1>
+                    </a>
+                    <a href="#website-link">
+                        <h1 class="project-nav-active">Website</h1>
+                    </a>
+                    <!-- Blog link -->
+                    <div class="blog-button">
+                        <a href="https://carlstrblog.wordpress.com/tag/Jimi_hendrix/" target="blank">
+                            <h4 class="blog">BLOG
+                                <img class="wordpress" src="img/icons/wordpress.png" style="width: 20%; margin-left: 10%;">
+                                <img class="wordpress_hover" src="img/icons/wordpress_hover.png" style="width: 20%; margin-left: 10%;">
+                            </h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Body scripts -->
+        <!-- Fullpage JS Script -->
+        <script>
+            $(document).ready(function () {
+                $('#fullpage').fullpage();
+            });
+        </script>
+
+        <!-- Overlay Menu ABOUT -->
+        <script>
+            $(function () {
+                $(".menu-link").click(function (e) {
+                    e.preventDefault();
+                    $(".menu-overlay").toggleClass("open");
+                    $(".menu").toggleClass("open");
+                });
+            });
+        </script>
+
+        <!-- Overlay Menu CONTACT -->
+        <script>
+            $(function () {
+                $(".menu-link2").click(function (e) {
+                    e.preventDefault();
+                    $(".menu-overlay-contact").toggleClass("open2");
+                    $(".menu").toggleClass("open2");
+                });
+            });
+        </script>
+
+        <!-- Fade-in page on load -->
+        <script>
+            $(function () {
+                $('body').removeClass('fade-out');
+            });
+        </script>
+</body>
+
+</html>

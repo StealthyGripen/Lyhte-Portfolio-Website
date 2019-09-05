@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>lyhte - Animation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Stylesheet -->
+    <link href="css/stylesheet.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+
+    <!-- FullPage CSS -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css" />
+
+    <!-- Jquery -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+
+    <!-- FullPage JS -->
+    <script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,800" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img\favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- Fade page in script -->
+    <script>document.body.className += ' fade-out';</script>
+
+    <!-- Home button  -->
+    <a href="index.html">
+        <div class="row navigation">
+            <div class="col-sm-5"></div>
+            <div class="col-sm-2">
+                <h4 class="home-btn">lyhte</h4>
+            </div>
+            <div class="col-sm-5">
+                <h3 style="font-size: 0.8em; text-align: right; margin-top: 2%; margin-right:10%;">© 2017 Carl Strümpfer</h3>
+            </div>
+        </div>
+    </a>
+
+    <!-- Top navbar -->
+    <div class="menu">
+        <div class="nav-btn">
+            <a href="#" class="menu-link">
+                <h4 class="btn-top">ABOUT</h4>
+            </a>
+        </div>
+        <div class="nav-btn">
+            <a href="#" class="menu-link2">
+                <h4 class="btn-top">CONTACT</h4>
+            </a>
+        </div>
+        <div class="nav-btn">
+            <a href="index.html#projects">
+                <h4 class="btn-top">PROJECTS</h4>
+            </a>
+        </div>
+    </div>
+
+    <!-- Project vertical nav bars -->
+    <a href="project_2.html" style="width: 100%; height:100%;">
+        <div class="hover-bar" style="right: 0;">
+            <div class="next-project">
+                <h4 class="next-btn">NEXT</h4>
+            </div>
+        </div>
+    </a>
+    <a href="project_3.html" style="width: 100%; height:100%;">
+        <div class="hover-bar" style="left:0">
+            <div class="prev-project">
+                <h4 class="prev-btn">PREV</h4>
+            </div>
+        </div>
+    </a>
+
+    <!-- About Me Page -->
+    <div class="menu-overlay">
+        <br>
+        <br>
+        <div class="overlay-info">
+            <h1>More about me</h1>
+            <p style="font-size: 1.2em;">
+                <br> My name is Carl Strümpfer. My surname is German, although I am not, and it translates to ‘socks’, which
+                <br> I coincidentally enjoy wearing on cold days. I live on the very bottom of the African continent, in
+                <br>South Africa.
+                <br>
+                <br> I am also currently a Multimedia Design student at the Stellenbosch Academy of Design and Photography,
+                <br> which to conserve oxygen, we all simply call the Academy. What you see here is some of the cool stuff
+                <br> that I’ve made there.
+                <br>
+                <br>
+                <br> I find myself intrigued by the concept of light, and how it dances around objects and plays with the world
+                <br> around us. I make it my mission in life to capture the game between light and darkness, by any means
+                <br> possible, be it photo, video or film.
+                <br>
+                <br> I can keep myself busy with my myriad of interests, that range from photography to restoring old
+                <br> technological relics, like keyboards and reel-to-reel tape decks. I also suffer from a severe case of
+                <br> retro 80’s nostalgia, which influences much of what I own and listen to.
+                <br>
+                <br>
+                <br>
+            </p>
+            <a href="#" class="menu-link">
+                <h4 style="color: black;">╳</h4>
+            </a>
+        </div>
+    </div>
+
+    <!-- Contact me page -->
+    <div class="menu-overlay-contact">
+        <div class="overlay-info-contact">
+            <div class="container-fluid contact-overlay">
+                <div class="row row-6">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4" style="color: black;">
+                        <h1>Wanna say hi?</h1>
+                        <h2>The proper definition of a man is an animal that writes letters.
+                            <br> Lewis Carrol</h2>
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div>
+                <div class="row row-8 mail-form" style="background-color: black;">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6">
+                        <form action="mailto:carlstr@gmail.com" method="post" enctype="text/plain">
+                            <input type="text" name="Your message" placeholder="go on, don’t be an animal...">
+                            <input type="text" name="Your name" placeholder="your name goes here">
+                            <input type="text" name="Your email address" placeholder="your email adress goes here">
+                            <input type="submit" value="SEND">
+                        </form>
+                    </div>
+                    <div class="row row-2" style="background-color: black;">
+                        <a href="#" class="menu-link2">
+                            <br>
+                            <h4 style="color: white;">╳</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Pages Start-->
+    <div id="fullpage">
+        <!-- Homepage -->
+        <div class="container-fluid content section" id="lumen-main">
+            <div class="row row-6">
+                <div class="col-sm-12" style="display: flex; justify-content: center; align-items: center;">
+                    <h1 class="project-name">Lumen</h1>
+                </div>
+            </div>
+            <div class="row row-6" style="background-color:black; color: white;">
+                <div class="col-sm-4 description">
+                    <h4>Outline</h4>
+                    <p style="background-color:black; color: white;">A short film is a perfect example of how artistry can be condensed into an easily consumable format ,
+                        while still retaining the depth of a longer piece. Several core techniques and dynamics of animation
+                        were fused into creating an animated short film. A character was created and developed with all the
+                        richness and personality that it could muster.
+                        <br>
+                        <br> The character was then woven into a story, itself crafted using a variety of story-writing skills
+                        and rules. In order to then fully realise the story, a hand-crafted environment was created in order
+                        to set the stage upon which it can run its course.
+                    </p>
+                </div>
+
+                <div class="col-sm-4 description">
+                    <p style="background-color:black; color: white;">
+                        <h4>Execution</h4>
+                        The storyline relied heavily on the concept of light and how it interacts with surroundings. Conventional 2D animation was
+                        not able to deliver the required lighting, and so 3D environments were crafted for this purpose.
+                        The 3D approach also allowed for greater control over shots and angles. The final execution is a
+                        hybrid of 2D character animation matted against a 3D background.
+                        <br>
+                        <br>
+                        <h4>Plot</h4>
+                        The film tells the story of a lighthouse keeper and his friend, a small puff of light. On one particular day, the lighthouse’s
+                        light mysteriously dies, and they are tasked with fixing it as soon as possible, but not without
+                        personal sacrifice.
+                </div>
+                <div class="col-sm-2"></div>
+                <!-- Tools icons -->
+                <div class="col-sm-1">
+                    <div class="tools-spacer"></div>
+                    <div class="tools">
+                        <img class="icon" src="img/icons/ae.png" alt="">
+                        <img class="icon-hover" src="img/icons/ae_hover.png" alt="">
+                    </div>
+                    <div class="tools">
+                        <img class="icon" src="img/icons/illustrator.png" alt="">
+                        <img class="icon-hover" src="img/icons/illustrator_alt.png" alt="">
+                    </div>
+                    <div class="tools">
+                        <img class="icon" src="img/icons/c4d.png" alt="">
+                        <img class="icon-hover" src="img/icons/c4d_hover.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lumen execution -->
+        <div class="container-fluid content section" id="lumen-execution">
+            <div class="row row-3">
+                <div class="col-sm-1"></div>
+                <!-- Project title -->
+                <div class="col-sm-11 project-title">
+                    <h1>Lumen</h1>
+                    <h3>animated short film</h3>
+                </div>
+            </div>
+            <div class="row row-8">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-7">
+                    <div style="position:relative; width:100%; height:0px; padding-bottom:56.25%;">
+                        <iframe style="position:absolute; left:0; top:0; width:100%; height:100%" src="https://www.youtube.com/embed/wXxpCSRIf6E?rel=0">
+                        </iframe>
+                    </div>
+                </div>
+                <!-- Project nav buttons -->
+                <div class="col-sm-4" style="min-width:350px">
+                    <a href="#lumen-execution">
+                        <h1 class="project-nav-active">Execution</h1>
+                    </a>
+                    <a href="#lumen-trailer">
+                        <h1 class="project-nav">Trailer</h1>
+                    </a>
+                    <a href="#lumen-character">
+                        <h1 class="project-nav">Character</h1>
+                    </a>
+                    <a href="#lumen-animatic">
+                        <h1 class="project-nav">Animatic</h1>
+                    </a>
+                    <a href="#lumen-storyboarding">
+                        <h1 class="project-nav">Storyboard</h1>
+                    </a>
+                    <a href="#lumen-environment">
+                        <h1 class="project-nav">Environment</h1>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Lumen trailer -->
+        <div class="container-fluid content section" id="lumen-trailer">
+            <div class="row row-3">
+                <div class="col-sm-1"></div>
+                <!-- Project title -->
+                <div class="col-sm-11 project-title">
+                    <h1>Lumen</h1>
+                    <h3>animated short film</h3>
+                </div>
+            </div>
+            <div class="row row-8">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-7">
+                    <div style="position:relative; width:100%; height:0px; padding-bottom:56.25%;">
+                        <iframe style="position:absolute; left:0; top:0; width:100%; height:100%" src="https://www.youtube.com/embed/p8HQiRoFpAc?rel=0">
+                        </iframe>
+                    </div>
+                </div>
+                <!-- Project nav buttons -->
+                <div class="col-sm-4" style="min-width:350px">
+                    <a href="#lumen-execution">
+                        <h1 class="project-nav">Execution</h1>
+                    </a>
+                    <a href="#lumen-trailer">
+                        <h1 class="project-nav-active">Trailer</h1>
+                    </a>
+                    <a href="#lumen-character">
+                        <h1 class="project-nav">Character</h1>
+                    </a>
+                    <a href="#lumen-animatic">
+                        <h1 class="project-nav">Animatic</h1>
+                    </a>
+                    <a href="#lumen-storyboarding">
+                        <h1 class="project-nav">Storyboard</h1>
+                    </a>
+                    <a href="#lumen-environment">
+                        <h1 class="project-nav">Environment</h1>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Lumen character -->
+        <div class="container-fluid content section" id="lumen-character">
+            <div class="row row-3">
+                <div class="col-sm-1"></div>
+                <!-- Project title -->
+                <div class="col-sm-11 project-title">
+                    <h1>Lumen</h1>
+                    <h3>animated short film</h3>
+                </div>
+            </div>
+            <div class="row row-8">
+                <div class="col-sm-1"></div>
+                <!-- Image slideshow -->
+                <div class="col-sm-7">
+                    <div id="carousel-lumen-character" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-lumen-character" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-lumen-characters" data-slide-to="1"></li>
+                            <li data-target="#carousel-lumen-character" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <a href="#lumen-character-1">
+                                    <img class="d-block img-fluid" src="img\lumen\lumen_character_1.png">
+                                </a>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3 class="image-description">Parvus character in lighthouse</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#lumen-character-2">
+                                    <img class="d-block img-fluid" src="img\lumen\lumen_character_2.png">
+                                </a>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3 class="image-description">Parvus character turnaround</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#lumen-character-3">
+                                    <img class="d-block img-fluid" src="img\lumen\lumen_character_3.png">
+                                </a>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3 class="image-description">Parvus character walking up staircase</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel-lumen-character" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-lumen-character" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Project nav buttons -->
+                <div class="col-sm-4" style="min-width:350px">
+                    <a href="#lumen-execution">
+                        <h1 class="project-nav">Execution</h1>
+                    </a>
+                    <a href="#lumen-trailer">
+                        <h1 class="project-nav">Trailer</h1>
+                    </a>
+                    <a href="#lumen-character">
+                        <h1 class="project-nav-active">Character</h1>
+                    </a>
+                    <a href="#lumen-animatic">
+                        <h1 class="project-nav">Animatic</h1>
+                    </a>
+                    <a href="#lumen-storyboarding">
+                        <h1 class="project-nav">Storyboard</h1>
+                    </a>
+                    <a href="#lumen-environment">
+                        <h1 class="project-nav">Environment</h1>
+                    </a>
+                    <!-- Link to project presentation -->
+                    <a href="pdf/Lumen - Character Presentation.pdf" target="blank">
+                        <h3 class="more-button">Click for more</h3>
+                    </a>
+                    <!-- Blog link -->
+                    <div class="blog-button2">
+                        <a href="https://carlstrblog.wordpress.com/tag/lumen_character/" target="blank">
+                            <h4 class="blog2">BLOG
+                                <img class="wordpress" src="img/icons/wordpress.png" style="width: 20%; margin-left: 10%;">
+                                <img class="wordpress_hover" src="img/icons/wordpress_hover.png" style="width: 20%; margin-left: 10%;">
+                            </h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lumen animatic -->
+        <div class="container-fluid content section" id="lumen-animatic">
+            <div class="row row-3">
+                <div class="col-sm-1"></div>
+                <!-- Project title -->
+                <div class="col-sm-11 project-title">
+                    <h1>Lumen</h1>
+                    <h3>animated short film</h3>
+                </div>
+            </div>
+            <div class="row row-8">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-7">
+                    <div style="position:relative; width:100%; height:0px; padding-bottom:56.25%;">
+                        <iframe style="position:absolute; left:0; top:0; width:100%; height:100%" src="https://www.youtube.com/embed/p7ZtKrWfbuA?rel=0">
+                        </iframe>
+                    </div>
+                </div>
+                <!-- Project nav buttons -->
+                <div class="col-sm-4" style="min-width:350px">
+                    <a href="#lumen-execution">
+                        <h1 class="project-nav">Execution</h1>
+                    </a>
+                    <a href="#lumen-trailer">
+                        <h1 class="project-nav">Trailer</h1>
+                    </a>
+                    <a href="#lumen-character">
+                        <h1 class="project-nav">Character</h1>
+                    </a>
+                    <a href="#lumen-animatic">
+                        <h1 class="project-nav-active">Animatic</h1>
+                    </a>
+                    <a href="#lumen-storyboarding">
+                        <h1 class="project-nav">Storyboard</h1>
+                    </a>
+                    <a href="#lumen-environment">
+                        <h1 class="project-nav">Environment</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lumen storyboarding -->
+        <div class="container-fluid content section" id="lumen-storyboarding">
+            <div class="row row-3">
+                <div class="col-sm-1"></div>
+                <!-- Project title -->
+                <div class="col-sm-11 project-title">
+                    <h1>Lumen</h1>
+                    <h3>animated short film</h3>
+                </div>
+            </div>
+            <div class="row row-8">
+                <div class="col-sm-1"></div>
+                <!-- Image slideshow -->
+                <div class="col-sm-7">
+                    <div id="carousel-lumen-storyboarding" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-lumen-storyboarding" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-lumen-storyboarding" data-slide-to="1"></li>
+                            <li data-target="#carousel-lumen-storyboarding" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <a href="#lumen-storyboard-1">
+                                    <img class="d-block img-fluid" src="img\lumen\lumen_storyboard_1.png">
+                                </a>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3 class="image-description">Spiral staircase shot</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#lumen-storyboard-2">
+                                    <img class="d-block img-fluid" src="img\lumen\lumen_storyboard_2.png">
+                                </a>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3 class="image-description">Cooking fish shot</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#lumen-storyboard-3">
+                                    <img class="d-block img-fluid" src="img\lumen\lumen_storyboard_3.png">
+                                </a>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3 class="image-description">Trying to fix lantern shot</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel-lumen-storyboarding" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-lumen-storyboarding" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Project nav buttons -->
+                <div class="col-sm-4" style="min-width:350px">
+                    <a href="#lumen-execution">
+                        <h1 class="project-nav">Execution</h1>
+                    </a>
+                    <a href="#lumen-trailer">
+                        <h1 class="project-nav">Trailer</h1>
+                    </a>
+                    <a href="#lumen-character">
+                        <h1 class="project-nav">Character</h1>
+                    </a>
+                    <a href="#lumen-animatic">
+                        <h1 class="project-nav">Animatic</h1>
+                    </a>
+                    <a href="#lumen-storyboarding">
+                        <h1 class="project-nav-active">Storyboard</h1>
+                    </a>
+                    <a href="#lumen-environment">
+                        <h1 class="project-nav">Environment</h1>
+                    </a>
+                    <!-- Link to project presentation -->
+                    <a href="pdf/Lumen - Storyboard Presentation.pdf" target="blank">
+                        <h3 class="more-button">Click for more</h3>
+                    </a>
+                    <!-- Blog link -->
+                    <div class="blog-button2">
+                        <a href="https://carlstrblog.wordpress.com/tag/lumen_storyboards/" target="blank">
+                            <h4 class="blog2">BLOG
+                                <img class="wordpress" src="img/icons/wordpress.png" style="width: 20%; margin-left: 10%;">
+                                <img class="wordpress_hover" src="img/icons/wordpress_hover.png" style="width: 20%; margin-left: 10%;">
+                            </h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lumen environment -->
+        <div class="container-fluid content section" id="lumen-environment">
+            <div class="row row-3">
+                <div class="col-sm-1"></div>
+                <!-- Project title -->
+                <div class="col-sm-11 project-title">
+                    <h1>Lumen</h1>
+                    <h3>animated short film</h3>
+                </div>
+            </div>
+            <div class="row row-8">
+                <div class="col-sm-1"></div>
+                <!-- Image slideshow -->
+                <div class="col-sm-7">
+                    <div id="carousel-lumen-environment" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-lumen-environment" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-lumen-environment" data-slide-to="1"></li>
+                            <li data-target="#carousel-lumen-environment" data-slide-to="2"></li>
+                            <li data-target="#carousel-lumen-environment" data-slide-to="3"></li>
+                            <li data-target="#carousel-lumen-environment" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <a href="#lumen-environment-1">
+                                    <img class="d-block img-fluid" src="img\lumen\lumen_environment_1.png">
+                                </a>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3 class="image-description">Lighthouse exterior (final lighting)</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#lumen-environment-2">
+                                    <img class="d-block img-fluid" src="img\lumen\lumen_environment_2.jpg">
+                                </a>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3 class="image-description">Lighthouse exterior wireframe</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#lumen-environment-3">
+                                    <img class="d-block img-fluid" src="img\lumen\lumen_environment_3.jpg">
+                                </a>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3 class="image-description">Lighthouse exterior process</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#lumen-environment-4">
+                                    <img class="d-block img-fluid" src="img\lumen\lumen_environment_4.jpg">
+                                </a>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3 class="image-description">Lantern room lit up</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#lumen-environment-5">
+                                    <img class="d-block img-fluid" src="img\lumen\lumen_environment_5.jpg">
+                                </a>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3 class="image-description">Stairway wireframe</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel-lumen-environment" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-lumen-environment" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Project nav buttons -->
+                <div class="col-sm-4" style="min-width:350px">
+                    <a href="#lumen-execution">
+                        <h1 class="project-nav">Execution</h1>
+                    </a>
+                    <a href="#lumen-trailer">
+                        <h1 class="project-nav">Trailer</h1>
+                    </a>
+                    <a href="#lumen-character">
+                        <h1 class="project-nav">Character</h1>
+                    </a>
+                    <a href="#lumen-animatic">
+                        <h1 class="project-nav">Animatic</h1>
+                    </a>
+                    <a href="#lumen-storyboarding">
+                        <h1 class="project-nav">Storyboard</h1>
+                    </a>
+                    <a href="#lumen-environment">
+                        <h1 class="project-nav-active">Environment</h1>
+                    </a>
+                    <!-- Link to project presentation -->
+                    <a href="pdf/Lumen - Backgrounds Presentation.pdf" target="blank">
+                        <h3 class="more-button">Click for more</h3>
+                    </a>
+                    <!-- Blog link -->
+                    <div class="blog-button2">
+                        <a href="https://carlstrblog.wordpress.com/tag/lumen_environment/" target="blank">
+                            <h4 class="blog2">BLOG
+                                <img class="wordpress" src="img/icons/wordpress.png" style="width: 20%; margin-left: 10%;">
+                                <img class="wordpress_hover" src="img/icons/wordpress_hover.png" style="width: 20%; margin-left: 10%;">
+                            </h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Image Gallery Lightboxes -->
+    <!-- Character Page Lightboxes -->
+    <a href="#_" class="lightbox" id="lumen-character-1">
+        <img src="img\lumen\lumen_character_1.png">
+    </a>
+    <a href="#_" class="lightbox" id="lumen-character-2">
+        <img src="img\lumen\lumen_character_2.png">
+    </a>
+    <a href="#_" class="lightbox" id="lumen-character-3">
+        <img src="img\lumen\lumen_character_3.png">
+    </a>
+    <!-- Storyboard Page Lightboxes -->
+    <a href="#_" class="lightbox" id="lumen-storyboard-1">
+        <img src="img\lumen\lumen_storyboard_1.png">
+    </a>
+    <a href="#_" class="lightbox" id="lumen-storyboard-2">
+        <img src="img\lumen\lumen_storyboard_2.png">
+    </a>
+    <a href="#_" class="lightbox" id="lumen-storyboard-3">
+        <img src="img\lumen\lumen_storyboard_3.png">
+    </a>
+    <!-- Environment Page Lightboxes -->
+    <a href="#_" class="lightbox" id="lumen-environment-1">
+        <img src="img\lumen\lumen_environment_1.png">
+    </a>
+    <a href="#_" class="lightbox" id="lumen-environment-2">
+        <img src="img\lumen\lumen_environment_2.jpg">
+    </a>
+    <a href="#_" class="lightbox" id="lumen-environment-3">
+        <img src="img\lumen\lumen_environment_3.jpg">
+    </a>
+    <a href="#_" class="lightbox" id="lumen-environment-4">
+        <img src="img\lumen\lumen_environment_4.jpg">
+    </a>
+    <a href="#_" class="lightbox" id="lumen-environment-5">
+        <img src="img\lumen\lumen_environment_5.jpg">
+    </a>
+
+    <!-- Body scripts -->
+    <!-- Fullpage JS Script -->
+    <script>
+        $(document).ready(function () {
+            $('#fullpage').fullpage();
+        });
+    </script>
+
+    <!-- Overlay Menu ABOUT -->
+    <script>
+        $(function () {
+            $(".menu-link").click(function (e) {
+                e.preventDefault();
+                $(".menu-overlay").toggleClass("open");
+                $(".menu").toggleClass("open");
+            });
+        });
+    </script>
+
+    <!-- Overlay Menu CONTACT -->
+    <script>
+        $(function () {
+            $(".menu-link2").click(function (e) {
+                e.preventDefault();
+                $(".menu-overlay-contact").toggleClass("open2");
+                $(".menu").toggleClass("open2");
+            });
+        });
+    </script>
+
+    <!-- Fade-in page on load -->
+    <script>
+        $(function () {
+            $('body').removeClass('fade-out');
+        });
+    </script>
+
+</body>
+
+</html>
